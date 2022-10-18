@@ -12,7 +12,7 @@ import android.widget.Toast;
 public class login extends AppCompatActivity {
     EditText uname, pass;
     Button  login;
-    User user = new User();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +27,7 @@ public class login extends AppCompatActivity {
                 String username = uname.getText().toString();
                 String password = pass.getText().toString();
                 if(!username.equals("") && !password.equals("")){
+                    User user = new User(username, password);
                     user.setUsername(username);
                     user.setPassword(password);
                     OpenMainActivity();
