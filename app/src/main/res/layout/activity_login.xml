@@ -46,6 +46,7 @@
             android:minHeight="48dp"
             android:textSize="15dp"
             android:background="@drawable/textbox"
+            android:textColor="@color/black"
             />
 
         <EditText
@@ -59,6 +60,7 @@
             android:inputType="textPassword"
             android:minHeight="48dp"
             android:textSize="15dp"
+            android:textColor="@color/black"
             android:background="@drawable/textbox"/>
 
         <Button

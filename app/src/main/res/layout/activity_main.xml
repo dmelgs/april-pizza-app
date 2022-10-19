@@ -40,7 +40,8 @@
                 android:layout_margin="15dp"
                 android:text="Menu"
                 android:textAlignment="center"
-                android:textSize="30dp" />
+                android:textSize="30dp"
+                android:textColor="@color/black"/>
 
             <TextView
                 android:id="@+id/pizza"
@@ -49,9 +50,11 @@
                 android:text="Pizzas"
                 android:textSize="20dp"
                 android:layout_margin="10dp"
-                android:textStyle="bold"/>
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
 
             <LinearLayout
+
                 android:layout_width="match_parent"
                 android:layout_height="101dp"
                 android:layout_margin="10dp"
@@ -64,7 +67,8 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:text="Hawaiian"
-                    android:textSize="15dp"></CheckBox>
+                    android:textSize="15dp"
+                    android:textColor="@color/black"></CheckBox>
 
 
 
@@ -88,7 +92,8 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:text="Cheese"
-                    android:textSize="15dp"></CheckBox>
+                    android:textSize="15dp"
+                    android:textColor="@color/black"></CheckBox>
 
                 <ImageView
                     android:id="@+id/cheese_img"
@@ -111,7 +116,8 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:text="Buffalo"
-                    android:textSize="15dp"></CheckBox>
+                    android:textSize="15dp"
+                    android:textColor="@color/black"></CheckBox>
 
                 <ImageView
                     android:id="@+id/buffalo_img"
@@ -134,7 +140,8 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:text="Pepperoni"
-                    android:textSize="15dp"></CheckBox>
+                    android:textSize="15dp"
+                    android:textColor="@color/black"></CheckBox>
 
                 <ImageView
                     android:id="@+id/pepperoni_img"
@@ -159,7 +166,8 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
                     android:text="Meat"
-                    android:textSize="15dp"></CheckBox>
+                    android:textSize="15dp"
+                    android:textColor="@color/black"></CheckBox>
 
                 <ImageView
                     android:id="@+id/meat_img"
@@ -193,7 +201,8 @@
                     android:id="@+id/water_rb"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Water Bottle" />
+                    android:text="Water Bottle"
+                    android:textColor="@color/black"/>
 
                 <ImageView
                     android:id="@+id/water_img"
@@ -218,7 +227,8 @@
                     android:id="@+id/coke_rb"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Coke Bottle" />
+                    android:text="Coke Bottle"
+                    android:textColor="@color/black"/>
 
                 <ImageView
                     android:id="@+id/coke_img"
@@ -243,7 +253,8 @@
                     android:id="@+id/sprite_rb"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sprite Bottle" />
+                    android:text="Sprite Bottle"
+                    android:textColor="@color/black"/>
 
                 <ImageView
                     android:id="@+id/sprite_img"
